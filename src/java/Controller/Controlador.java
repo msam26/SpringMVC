@@ -28,7 +28,7 @@ public class Controlador {
         String sql = "SELECT * FROM ALUMNO";
         List datos = this.jdbc.queryForList(sql);
         mav.addObject("lista", datos);
-        mav.setViewName("index");
+        mav.setViewName("index"); //BUENOS DIAS
         return mav;
     }
 }
