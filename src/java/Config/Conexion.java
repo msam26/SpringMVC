@@ -17,7 +17,7 @@ public class Conexion {
         ds.setDriverClassName("oracle.jdbc.OracleDriver");
         ds.setUrl("jdbc:oracle:thin:@localhost:1521:XE");
         ds.setUsername("MIGUEL");
-        ds.setPassword("123456");
+        ds.setPassword("123456"); //Holaaaaa
         
         return ds;
     }
